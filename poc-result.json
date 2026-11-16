@@ -1,0 +1,12 @@
+{
+  "poc": "Bull SDK agree() — amount inflated + conditions rewritten, no verification",
+  "sdk": "bull-sdk.mjs (verbatim copy of https://www.bull.family/sdk/bull.mjs)",
+  "agreement": "MockAgreement.sol (implements the DOCUMENTED Agreement semantics from llms.txt; real BullAgreement source is unverified)",
+  "agreementId": "1",
+  "agreedAmount": "500",
+  "onChainAmount": "5000",
+  "victimBalanceBefore": "5000",
+  "victimBalanceAfter": "0",
+  "attackerBalanceAfter": "5000",
+  "exploited": true
+}
